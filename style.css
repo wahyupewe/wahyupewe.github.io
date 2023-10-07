@@ -1,0 +1,28 @@
+*,
+
+.body {
+    background: -moz-linear-gradient();
+}
+.title{
+    border-bottom: 2px solid white !important;
+
+}
+.item{
+    text-decoration: none;
+    color: black;
+    width: 100vw;
+}
+.item:hover{
+ background-color: white;   
+}
+
+@media screen and (max-width: 1366px) {
+    html {
+      font-size: 100%;
+    }
+  }
+  
+  @media  screen and (max-width: 758px) {
+     {
+      font-size: 62.5%;
+    }
